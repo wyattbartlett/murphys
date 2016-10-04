@@ -1,32 +1,45 @@
 #topmenu {
-  background-color: #F5F5F5;
+  background-color: white;
   box-shadow: none;
   border: none;
+  padding: 20px;
+  margin: 0;
 }
 
-#middlemenu {
-  box-shadow: none;
-  border: none;
+#topmenu-logo {
+
+}
+
+.image-background {
+  background: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.main.column{
+  position: relative;
+  top: 50%;
+  transform: 			translateY(50%);
+}
+
+.main.column p{
+  padding: 50px;
+  text-align: left;
 }
 
 .footer-wrapper {
   z-index: 2;
   clear: left;
   border-top: 1px solid #ffffff;
-  background: #292929;
+  background: #004030;
   padding: 50px 0;
   text-align: left;
   color: white;
 }
 
-
 #footer .column h4 {
   border-bottom: 1px solid
   #ffffff;
   padding-bottom: 5px;
-}
-
-#join-label {
-  background-color: black;
-  color: white;
 }
