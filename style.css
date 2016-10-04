@@ -1,0 +1,32 @@
+#topmenu {
+  background-color: #F5F5F5;
+  box-shadow: none;
+  border: none;
+}
+
+#middlemenu {
+  box-shadow: none;
+  border: none;
+}
+
+.footer-wrapper {
+  z-index: 2;
+  clear: left;
+  border-top: 1px solid #ffffff;
+  background: #292929;
+  padding: 50px 0;
+  text-align: left;
+  color: white;
+}
+
+
+#footer .column h4 {
+  border-bottom: 1px solid
+  #ffffff;
+  padding-bottom: 5px;
+}
+
+#join-label {
+  background-color: black;
+  color: white;
+}
